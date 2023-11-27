@@ -7,7 +7,7 @@ const {
   writeGameSaving: saveGame 
 } = gameExports;
 
-const game = new Game();
+const game = new gameExports.default();
 game.start();
 
 console.log('app worked');
